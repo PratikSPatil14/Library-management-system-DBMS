@@ -11,4 +11,10 @@ CREATE TABLE books (book_ID NUMBER PRIMARY KEY, title VARCHAR2(30), author VARCH
 
 CREATE TABLE book_issued (book_ID NUMBER PRIMARY KEY, issueto VARCHAR2(30));
 
+**HOW TO RUN?**
+
+**con = cx_Oracle.connect('dbmslab/vitpune@localhost')**
+
+Replace dbmslab by your SQL plus username and vitpune by your password
+
 
