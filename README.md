@@ -1,11 +1,11 @@
 # Library-management-system-DBMS
 
 
-DESCRIPTION
+**DESCRIPTION**
 
 Hi this is new project of Library Management System in Python using tkinter module and oracle database.
 
-DATABASE QUERIES
+**DATABASE QUERIES**
 
 CREATE TABLE books (book_ID NUMBER PRIMARY KEY, title VARCHAR2(30), author VARCHAR2(30), status VARCHAR(30));
 
